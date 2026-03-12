@@ -1,0 +1,41 @@
+{
+  // ── EDITOR DASAR ─────────────────────────────
+  "editor.fontSize": 15,
+  "editor.fontFamily": "Fira Code, Consolas, monospace",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.wordWrap": "on",
+  "editor.lineHeight": 1.6,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+
+  // ── FORMAT OTOMATIS ──────────────────────────
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[css]":  { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+
+  // ── PRETTIER ────────────────────────────────
+  "prettier.printWidth": 100,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "prettier.htmlWhitespaceSensitivity": "ignore",
+
+  // ── TAMPILAN ─────────────────────────────────
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.minimap.enabled": false,
+  "editor.renderLineHighlight": "all",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+
+  // ── FILE & EXPLORER ──────────────────────────
+  "files.autoSave": "onFocusChange",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  // ── EMMET (shortcut HTML) ────────────────────
+  "emmet.includeLanguages": { "html": "html" },
+  "emmet.triggerExpansionOnTab": true
+}
